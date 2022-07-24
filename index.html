@@ -3,18 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Junpoo|Homepage</title>
+    <meta name="author" content="株式会社Junpoo">
+    <meta name="description" content=" ホームページ及びショッピングカートリニューアルのお知らせ この度、よりお客様に快適に弊社ホームページをご利用いただくために
+        ホームページ及びショッピングカートをリニューアルさせていただきました。">
+    <link rel="icon" href="./icons/bitbug_favicon.ico">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./js/swiper8/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
 
 
 </head>
 
 <body>
-    <div class="w">
+    <div class="wrapper">
         <!-- header start -->
-        <header class="header">
+        <header class="main-header">
+
             <!-- header-top start -->
             <div class="header-top">
                 <div class="logo">
@@ -40,22 +48,153 @@
             <!-- header-bottom start -->
             <div class="header-bottom">
 
-                <ul class="container">
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Innovation</a></li>
-                    <li><a href="#">Player&nbsp;&amp;&nbsp;Fan</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">About Us</a></li>
+                <ul class="container" id="mycontainer">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#" player>Player&nbsp;&amp;&nbsp;Fan</a></li>
+                    <li><a href="#Innovation">Innovation</a></li>
+                    <li><a href="#aboutus" class="about">About Us</a></li>
+
                 </ul>
 
             </div>
-            <!-- header-back start -->
-            <div class="header-back"></div>
-        </header>
 
+        </header>
+        <!--header-back start -->
+        <section class="header-back">
+            <div class="slider">
+                <div><img src="./images/badminton-1428046_1280.jpg" alt="" width="1280" height="853"></div>
+                <div><img src="./images/badminton-1428047_1280.png" alt="" width="1280" height="853"></div>
+                <div><img src="./images/badminton-shoes.png" alt="" width="1280" height="853"></div>
+            </div>
+        </section>
+        <section class="main">
+            <div class="main-products">
+                <h2>Products</h2>
+                <div class="row">
+                    <div class="box1">
+                        <div class="items">
+                            <a href="https://www.jd.com/pinpai/2-1466-18861.html" target="_blank"><img
+                                    src="./images/racket.png" alt="Racket" width="235" height="235"></a>
+                            <div><a href="#">Racket</a></div>
+                        </div>
+                        <div class="items">
+                            <a href="https://www.jd.com/pinpai/2-1466-18861.html" target=" _blank"><img
+                                    src=" ./images/shoes.png" alt="Shoes" width="235" height="235"></a>
+                            <div><a href="#">Shoes</a></div>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <div class="items">
+                            <a href="https://www.jd.com/pinpai/2-1466-18861.html" target="_blank"><img
+                                    src=" ./images/wear.png" alt="Wears" width="235" height="235"></a>
+                            <div><a href="#">Wears</a></div>
+                        </div>
+                        <div class="items">
+                            <a href="https://www.jd.com/pinpai/2-1466-18861.html" target="_blank"><img
+                                    src=" ./images/bags.png" alt="Bags" width="235" height="235"></a>
+                            <div><a href="#">Accessories</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><img src="./images/back-1.png" alt="" width="70%"
+                                    height="70%"></a></div>
+                        <div class=" swiper-slide"><a href="#"><img src="./images/back-2.png" alt="" width="70%"
+                                    height="70%"></a>
+                        </div>
+                        <div class="swiper-slide"><a href="#"><img src="./images/back-3.png" alt="" width="70%"
+                                    height="70%"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+
+        </section>
+
+
+        <!-- footer start -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <div class="box"><a href="#"><img src="./icons/bags.png" alt="bags" width="172" height="160"></a>
+                    </div>
+                    <div class="box"><a href="#"><img src="./icons/racket.png" alt="racket" width="172"
+                                height="160"></a>
+                    </div>
+                    <div class="box"><a href="#"><img src="./icons/shuttle.png" alt="shuttle" width="172"
+                                height="160"></a>
+                    </div>
+                    <div class="box"><a href="#"><img src="./icons/shoes.png" alt="shoes" width="172" height="160"></a>
+                    </div>
+                    <div class="box"><a href="#"><img src="./icons/wears.png" alt="wears" width="172" height="160"></a>
+                    </div>
+                    <div class="box"><a href="#"><img src="./icons/gifts.png" alt="gifts" width="172" height="160"></a>
+                    </div>
+                    <div class="box"><a href="#"><img src="./icons/displays.png" alt="displays" width="172"
+                                height="160"></a></div>
+                    <div class="box"><a href="#"><img src="./icons/others.png" alt="others" width="172"
+                                height="160"></a>
+                    </div>
+                    <div class="box"><a href="#"><img src="./icons/acc.png" alt="acc" width="172" height="160"></a>
+                    </div>
+
+                </div>
+                <div class="footer-right">
+                    <div class="box junpoo"><img src="./images/logo-junpoo.png" alt=""></div>
+                    <div class="box address">
+                        <ul>
+                            <li>株式会社Junpoo</li>
+                            <li>住所：&nbsp;〒160-0021</li>
+                            <li>東京都新宿区歌舞伎町2-2-15<br>ヒルコート東新宿ビル&nbsp;3階</li>
+                        </ul>
+                    </div>
+                    <div class="box banner"><img src="./icons/back-1.png" alt="" width="540"></div>
+                </div>
+            </div>
+            <small>Copyright &copy;2022 by Junpoo</small>
+
+        </footer>
 
     </div>
 
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bxslider-4-4.2.12/dist/jquery.bxslider.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider(
+                {
+                    mode: 'fade',
+                    speed: 1000,
+                    pager: false,
+                    auto: true,
+                    easing: 'ease-in-out',
+
+                }
+            );
+        });
+    </script>
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            autoplay: true,
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
